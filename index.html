@@ -8,6 +8,8 @@
     <!-- daisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="styles/style.css">
     <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -166,25 +168,25 @@
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 px-12 py-10">
             <div class="bg-rose-300 p-6 rounded-xl">
                 <img src="assets/concept.png" alt="">
-                <h3 class="text-3xl font-extrabold mb-3 mt-2">Concept</h3>
+                <h3 class="text-2xl font-extrabold mb-3 mt-2">Concept</h3>
                 <h6 class="text-gray-600 font-medium">The barn house captivates with its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal accents.</h6>
             </div>
             <div class="bg-amber-300 p-6 rounded-xl">
                 <img src="assets/flow-chart.png" alt="">
-                <h3 class="text-3xl font-extrabold mb-3 mt-2">Design Process</h3>
+                <h3 class="text-2xl font-extrabold mb-3 mt-2">Design Process</h3>
                 <h6 class="text-gray-600 font-medium">The barn house captivates with its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal accents.</h6>
             </div>
             <div class="bg-green-300 p-6 rounded-xl">
                 <img src="assets/vision.png" alt="">
-                <h3 class="text-3xl font-extrabold mb-3 mt-2">Supervision</h3>
+                <h3 class="text-2xl font-extrabold mb-3 mt-2">Supervision</h3>
                 <h6 class="text-gray-600 font-medium">The barn house captivates with its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal accents.</h6>
             </div>
             <div class="bg-blue-300 p-6 rounded-xl">
                 <img src="assets/budget-planning.png" alt="">
-                <h3 class="text-3xl font-extrabold mb-3 mt-2">Budget Planning</h3>
+                <h3 class="text-2xl font-extrabold mb-3 mt-2">Budget Planning</h3>
                 <h6 class="text-gray-600 font-medium">The barn house captivates with its blend of rustic charm and
                     modern sophistication, featuring weathered wood, sleek metal accents.</h6>
             </div>
@@ -209,11 +211,11 @@
                             <img class="w-[800px]" src="assets/img1.png" alt="">
                         </div>
                         <div>
-                            <h3 class="text-3xl font-extrabold mt-6">Commercial</h3>
+                            <h3 class=" text-2xl lg:text-3xl font-extrabold mt-6">Commercial</h3>
                             <h6 class="text-gray-600 font-medium mt-8 mb-7">The barn house captivates with its blend of
                                 rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                             </h6>
-                            <a href="#" class=" text-xl font-extrabold">View
+                            <a href="#" class=" text-lg lg:text-xl font-extrabold">View
                                 Details <i
                                     class="fa-solid fa-arrow-right text-lg -rotate-45 bg-rinterio-green text-black w-8 h-8 text-center rounded-full"></i></a>
 
@@ -224,7 +226,7 @@
                     </div>
                 </div>
                 <!-- 2nd part -->
-                <div class="flex flex-col lg:flex-row mb-10 gap-5 lg:gap-11">
+                <div class="flex flex-col flex-col-reverse lg:flex-row mb-10 gap-5 lg:gap-11">
                     <div class="block lg:hidden border-2 p-5 rounded-xl bg-white lg:w-1/5">
                         <div>
                             <img class="w-[800px]" src="assets/img5.png" alt="">
@@ -240,11 +242,11 @@
                             <img class="w-[800px]" src="assets/img4.png" alt="">
                         </div>
                         <div>
-                            <h3 class="text-3xl font-extrabold">Commercial</h3>
+                            <h3 class="text-2xl lg:text-3xl font-extrabold">Commercial</h3>
                             <h6 class="text-gray-600 font-medium mt-4 mb-2">The barn house captivates with its blend of
                                 rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
                             </h6>
-                            <a href="#" class=" text-xl font-extrabold">View
+                            <a href="#" class=" text-lg lg:text-xl font-extrabold">View
                                 Details <i
                                     class="fa-solid fa-arrow-right text-lg -rotate-45 bg-rinterio-green text-black w-8 h-8 text-center rounded-full"></i></a>
 
@@ -260,53 +262,81 @@
         </div>
     </section>
     <!-- 5th part -->
-        <section class="mt-15 mb-10 max-w-[1440px] bg-white lg:bg-gray-100 mx-auto">
-            <div class="py-8 text-center flex flex-col items-center">
-                <button><a
-                        class=" btn px-3 py-2  mt-4 mb-5 lg:mt-10 bg-white text-lg text-gray-700 font-bold rounded-full"><i
-                            class="fa-solid fa-arrow-right text-lg  text-gray-700 text-center"></i>Explore House Types</a></button>
-                <h3 class="text-4xl lg:text-6xl font-extrabold mb-6">Types of Houses We Provide</h3>
-                <p class="text-gray-600 font-medium lg:w-2/3 text-[18px] lg:text-lg mb-5">The barn house captivates with its
-                    blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents. </p>
-            </div>
-      <!-- radial progress -->
-            <div class="mt-5 pb-1 lg:pb-8 px-5 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div class=" flex flex-col items-center justify-center space-y-3 py-6">
+    <section class="mt-15 mb-10 max-w-[1440px] bg-white lg:bg-gray-100 mx-auto">
+        <div class="py-8 text-center flex flex-col items-center">
+            <button><a
+                    class=" btn px-3 py-2  mt-4 mb-5 lg:mt-10 bg-white text-lg text-gray-700 font-bold rounded-full"><i
+                        class="fa-solid fa-arrow-right text-lg  text-gray-700 text-center"></i>Explore House
+                    Types</a></button>
+            <h3 class="text-4xl lg:text-6xl font-extrabold mb-6">Types of Houses We Provide</h3>
+            <p class="text-gray-600 font-medium lg:w-2/3 text-[18px] lg:text-lg mb-5">The barn house captivates with its
+                blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents. </p>
+        </div>
+        <!-- radial progress -->
+        <div class="mt-5 pb-1 lg:pb-8 px-5 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class=" flex flex-col items-center justify-center space-y-3 py-6">
                 <div class="relative">
-                  <div class=" z-10 radial-progress text-red-600" style="--value:90;" role="progressbar">90%</div>
-                  <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
-                    role="progressbar"></div>
+                    <div class=" z-10 radial-progress text-red-600" style="--value:90;" role="progressbar">90%</div>
+                    <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
+                        role="progressbar"></div>
                 </div>
                 <h6 class="text-xl font-extrabold">Detached</h6>
                 <p class="text-center font-medium">The barn house captivates with its blend of rustic charm.</p>
-              </div>
-              <div class=" flex flex-col items-center justify-center space-y-3 py-6">
+            </div>
+            <div class=" flex flex-col items-center justify-center space-y-3 py-6">
                 <div class="relative">
-                  <div class=" z-10 radial-progress text-blue-600" style="--value:84;" role="progressbar">84%</div>
-                  <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
-                    role="progressbar"></div>
+                    <div class=" z-10 radial-progress text-blue-600" style="--value:84;" role="progressbar">84%</div>
+                    <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
+                        role="progressbar"></div>
                 </div>
                 <h6 class="text-xl font-extrabold">Semi-detached</h6>
                 <p class="text-center font-medium">The barn house captivates with its blend of rustic charm.</p>
-              </div>
-              <div class=" flex flex-col items-center justify-center space-y-3 py-6">
+            </div>
+            <div class=" flex flex-col items-center justify-center space-y-3 py-6">
                 <div class="relative">
-                  <div class=" z-10 radial-progress text-amber-500" style="--value:77;" role="progressbar">77%</div>
-                  <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
-                    role="progressbar"></div>
+                    <div class=" z-10 radial-progress text-amber-500" style="--value:77;" role="progressbar">77%</div>
+                    <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
+                        role="progressbar"></div>
                 </div>
                 <h6 class="text-xl font-extrabold">Apartments</h6>
                 <p class="text-center font-medium">The barn house captivates with its blend of rustic charm.</p>
-              </div>
-              <div class=" flex flex-col items-center justify-center space-y-3 py-6">
+            </div>
+            <div class=" flex flex-col items-center justify-center space-y-3 py-6">
                 <div class="relative">
-                  <div class=" z-10 radial-progress text-green-600" style="--value:79;" role="progressbar">79%</div>
-                  <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
-                    role="progressbar"></div>
+                    <div class=" z-10 radial-progress text-green-600" style="--value:79;" role="progressbar">79%</div>
+                    <div class="absolute rotate-90 left-0 top-0 radial-progress text-slate-300" style="--value:87;"
+                        role="progressbar"></div>
                 </div>
                 <h6 class="text-xl font-extrabold">Terraced</h6>
                 <p class="text-center font-medium">The barn house captivates with its blend of rustic charm.</p>
-              </div>
             </div>
-          </section>
+        </div>
+    </section>
+
+    <!-- input field -->
+    <section class="  background-img max-w-[1440px] mx-auto mt-10 mb-10">
+        <div class="py-8 text-center flex flex-col items-center">
+            <button><a
+                    class=" btn px-3 py-2  mt-4 mb-5 lg:mt-10 bg-white text-lg text-gray-700 font-bold rounded-full"><i
+                        class="fa-solid fa-arrow-right text-lg  text-gray-700 text-center"></i>Let's
+                    Connect</a></button>
+            <h3 class="text-4xl lg:text-6xl font-extrabold mb-6">Let’s Discuss Next Project</h3>
+            <p class="text-gray-600 font-medium lg:w-2/3 text-[18px] lg:text-lg mb-5">The barn house captivates with its
+                blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents. </p>
+        </div>
+        <div class="w-9/12 mx-auto pb-10">
+            <div class="lg:col-span-2">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div>
+                        <input class=" p-4 border-none outline-none  rounded-full w-full" placeholder="First Name*"
+                            type="text">
+                    </div>
+                    <div>
+                        <input class=" p-4 border-none outline-none  rounded-full w-full" placeholder="Last Name*"
+                            type="text">
+                    </div>
+                    
+            </div>
+        </div>
+    </section>
 </body>
